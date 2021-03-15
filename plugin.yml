@@ -1,0 +1,19 @@
+name: WeatherUI
+main: ir.ShadowMiner.WeatherUI.WeatherUI
+version: "1.0.0"
+api: ["1.0.0"]
+
+load: POSTWORLD
+author: Shadow miner
+description: Change Weather With An UI!
+
+commands:
+  wui:
+    description: Main Command
+    usage: "/wui"
+    permission: wui.cmd
+
+permissions:
+  wui.cmd:
+    description: "Main Permission"
+    default: op
